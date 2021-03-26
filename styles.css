@@ -1,3 +1,8 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .app  {
   color: red;
   font-family: Roboto;
@@ -6,4 +11,25 @@
 .title {
   color: red;
   font-family: Roboto;
+}
+
+.header {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 190px;
+  height: 35px;
+  background: url(images/logo1.svg) no-repeat;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav-link {
+  margin-left: 25px;
 }
