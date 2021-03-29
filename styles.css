@@ -32,4 +32,31 @@ body {
 
 .header__nav-link {
   margin-left: 25px;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+
+.main__title {
+  font-family: pt_serifregular;
+  font-size: 50px;
+  line-height: 66.25px;
+}
+
+.main__text {
+  font-family: roboto;
+  font-size: 18px;
+  line-height: 21.09px;
+}
+
+.main__button {
+  font-family: roboto;
+  background-color: #0056EC;
+  font-size: 14px;
+  border-radius: 4px;
+  Line-height: 16.41px;
+  padding: 14px 16px;
+  color: white;
+  border: none;
+  outline: none;
 }
