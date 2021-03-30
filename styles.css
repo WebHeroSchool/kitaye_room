@@ -35,6 +35,8 @@ body {
   font-family: Roboto;
   font-size: 14px;
   line-height: 16.41px;
+  font-weight: 500;
+  text-decoration: none;
 }
 
 .main__title {
@@ -47,6 +49,7 @@ body {
   font-family: roboto;
   font-size: 18px;
   line-height: 21.09px;
+  font-weight: 500;
 }
 
 .main__button {
@@ -59,4 +62,5 @@ body {
   color: white;
   border: none;
   outline: none;
+  font-weight: 500;
 }
