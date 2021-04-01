@@ -1,3 +1,8 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .app  {
   color: red;
   font-family: Roboto;
@@ -6,4 +11,56 @@
 .title {
   color: red;
   font-family: Roboto;
+}
+
+.header {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 190px;
+  height: 35px;
+  background: url(images/logo1.svg) no-repeat;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav-link {
+  margin-left: 25px;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16.41px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.main__title {
+  font-family: pt_serifregular;
+  font-size: 50px;
+  line-height: 66.25px;
+}
+
+.main__text {
+  font-family: roboto;
+  font-size: 18px;
+  line-height: 21.09px;
+  font-weight: 500;
+}
+
+.main__button {
+  font-family: roboto;
+  background-color: #0056EC;
+  font-size: 14px;
+  border-radius: 4px;
+  Line-height: 16.41px;
+  padding: 14px 16px;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: 500;
 }
