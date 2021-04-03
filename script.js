@@ -5,9 +5,7 @@ function menuToggle() {
   toggle.addEventListener('click', function() {
     this.classList.toggle('opened');
     menu.classlist.toggle('open');
-  })
-
-
+  });
 }
 
 menuToggle();
