@@ -16,7 +16,7 @@ body {
   }
 
 .main__title-text-highlight {
-  background: #ecf3ff;
+  background: linear-gradient(to bottom, white 1%, #ecf3ff 96%, white 3%);
 }
 
 .main__title {
