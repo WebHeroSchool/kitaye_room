@@ -56,7 +56,7 @@ body {
 }
 
 
-  @media (min-width: 375px) {
+  @media (min-width: 375px) and (max-width: 767px) {
     .header {
       padding: 23px 24px 29px;
     }
@@ -74,7 +74,7 @@ body {
     }
 
     .logo {
-      background: url(images/logoicon1.svg) no-repeat;
+      background: url(images/Logoicon1.svg) no-repeat;
       width: 36px;
     }
 
@@ -130,9 +130,9 @@ body {
 
     .main {
       width: 86%;
-      margin: 0 auto;
+      margin: 0 auto 50px;
       text-align: center;
-      background: url(images/frame1.svg) no-repeat top;
+      background: url(images/Frame1.svg) no-repeat top; 
       background-size: 280px 239px;
       padding-top: 261px;
     }
@@ -146,7 +146,7 @@ body {
 
   }
 
-    @media (min-width: 1024px) {
+    @media (min-width: 768px) {
       .body-wrapper {
         width: 91%;
       }
