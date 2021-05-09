@@ -1,10 +1,10 @@
 function menuToggle() {
-  const toggle = document.querySelector('.header__nav-toggle');
-  const menu = document.querySelector('.menu');
+  const btn = document.querySelector('.header__nav-toggle');
+  const nav = document.querySelector('.header__nav');
 
-  toggle.addEventListener('click', function() {
-    this.classList.toggle('opened');
-    menu.classlist.toggle('open');
+  btn.addEventListener('click', function() {
+    btn.classList.toggle('opened');
+    nav.classList.toggle('mobile-menu');
   });
 }
 
