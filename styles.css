@@ -56,7 +56,7 @@ body {
 }
 
 
-  @media (min-width: 375px) and (max-width: 767px) {
+  @media (min-width: 375px) and (max-width: 1023px) {
     .header {
       padding: 23px 24px 29px;
     }
@@ -132,7 +132,7 @@ body {
       width: 86%;
       margin: 0 auto 50px;
       text-align: center;
-      background: url(images/Frame1.svg) no-repeat top; 
+      background: url(images/Frame1.svg) no-repeat top;
       background-size: 280px 239px;
       padding-top: 261px;
     }
@@ -146,7 +146,7 @@ body {
 
   }
 
-    @media (min-width: 768px) {
+    @media (min-width: 1024px) {
       .body-wrapper {
         width: 91%;
       }
@@ -225,7 +225,7 @@ body {
       }
 
       .main {
-        padding: 0 60% 165px 0;
+        padding: 0 58% 165px 0;
         background: url(images/Frame1.svg) no-repeat top right;
         width: unset;
         text-align: left;
@@ -237,13 +237,22 @@ body {
 
       .main__button {
         margin: unset;
+        width: 175px;
+      }
+
+      .main__title{
+        letter-spacing: 2px;
       }
     }
 
-      @media (min-width: 1333px) {
+      @media (min-width: 1366px) {
         .body-wrapper {
           width: unset;
-          padding: 40px 218px;
+          padding: 0 218px;
+        }
+
+        .header {
+          letter-spacing: 0.3px;
         }
       }
 
@@ -269,6 +278,7 @@ body {
             line-height: 87px;
             padding-top: 74px;
             margin: 0px 0 37px 0;
+            letter-spacing: 0; 
           }
 
           .main__subtitle {
